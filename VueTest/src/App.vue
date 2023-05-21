@@ -1,46 +1,24 @@
-<script setup>
-import TheWelcome from './components/TheWelcome.vue';
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-
-    <div class="wrapper">
-      <HelloWorld />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <first-header></first-header>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
+<script >
+  import FirstHeader from './components/FirstHeader.vue';
+export default{
+components:{
+FirstHeader
+}
+}
+</script>
+<style>
+#App{
+  width: 100%;
+  height: 100%;
+}
+body{
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
+
