@@ -1,11 +1,16 @@
 <template>
   <first-header></first-header>
+  <title-nav></title-nav>
+  <!-- <form-resume></form-resume> -->
+  
 </template>
 <script >
   import FirstHeader from './components/FirstHeader.vue';
+  import TitleNav from './components/TitleNav.vue';
+  // import FormResume from './components/FormResume.vue';
 export default{
 components:{
-FirstHeader
+FirstHeader, TitleNav, 
 }
 }
 </script>

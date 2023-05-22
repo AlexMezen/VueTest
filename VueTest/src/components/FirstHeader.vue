@@ -97,9 +97,10 @@ border-radius: 3px;
 .header {
   display: flex;
   justify-content: center;
-  background-color: #1e2a35;
+  background: #01021B;  
   width: 100%;
   height: 77px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .logo {
   padding-right: 15px;
