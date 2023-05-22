@@ -1,9 +1,9 @@
-<!-- <template>
+<template>
     <div class="vCardSection">
         <div class="vCardSection-wrapper">
             <div class="vCard">
                 <div class="vCard-form">
-                    <div class="left">
+                    <div class="vCard-left">
                         <div class="vCard-fill">
                             <div class="vCard-contactInfo">Fill out all necessary contact information</div>
                         </div>
@@ -19,9 +19,9 @@
                                 <div class="labels-text">About:</div>
                         </div>
                         </div>
-                        <div class="MoreCustomization">More customization</div>
+                        <div class="MoreCustomization"><a href="#">More customization</a> &rarr;</div>
                 </div>
-                <div class="right"></div>
+                <div class="vCard-right"></div>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ justify-content: center;
     width: 80%;
 }
 .vCard{
-width: 1330px;
+width: 100%;
 height: 778px;
 background: #F9F9F9;
 box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
@@ -64,21 +64,24 @@ border-radius: 20px;
 }
 
 .vCard-contactInfo{
-display: inline-block;
+display: inline-flex;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 15px;
 color: #434343;
+height: 40px;
+align-items: end;
 }
-.left{
+.vCard-left{
     display: flex;
     flex-direction: column;
     margin-left: 40px;
 }
 .vCard-middle{
     height: 100%;
+
 }
 .labels-text{
 font-family: 'Roboto';
@@ -89,10 +92,26 @@ line-height: 22px;
 color: #818181;
 }
 .MoreCustomization{
-    height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+color: #4B68FF;
+}
+.MoreCustomization a{
+height: 55px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+text-decoration-line: underline;
+color: #4B68FF;
 }
 
-.left, .right{
+.vCard-left, .vCard-right{
 width: 50%;
 height: 100%;
 }
@@ -100,4 +119,4 @@ height: 100%;
 display: inline-flex;
 }
 
-</style> -->
+</style>
