@@ -59,6 +59,9 @@ margin-top: 55px;
 .w33{
     width: 33%;
 }
+.mb30{
+    margin-bottom: 30px;
+}
 .dfcenter{
 display: flex;
 justify-content: center;

@@ -4,6 +4,7 @@
   <form-resume></form-resume>
   <customize></customize>
   <q-r-wallet></q-r-wallet>
+  <save-trees></save-trees>
 </template>
 <script >
   import FirstHeader from './components/FirstHeader.vue';
@@ -11,6 +12,7 @@
   import FormResume from './components/FormResume.vue';
   import Customize from './components/Customize.vue';
   import QRWallet from './components/QrWallet.vue';
+  import SaveTrees from './components/SaveTrees.vue';
 export default{
 components:{
 FirstHeader,
@@ -18,6 +20,7 @@ TitleNav,
 FormResume,
 Customize,
 QRWallet,
+SaveTrees,
 }
 }
 </script>
