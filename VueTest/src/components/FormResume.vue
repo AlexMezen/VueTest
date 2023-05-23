@@ -83,7 +83,7 @@ export default{
 <style>
 .vCardSection{
 width: 100%;
-height: 1380px;
+height: 840px;
 background: #01021B;
 display: flex;
 justify-content: center;

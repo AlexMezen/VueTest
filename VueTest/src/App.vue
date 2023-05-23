@@ -2,17 +2,19 @@
   <first-header></first-header>
   <title-nav></title-nav>
   <form-resume></form-resume>
-  
+  <customize></customize>
 </template>
 <script >
   import FirstHeader from './components/FirstHeader.vue';
   import TitleNav from './components/TitleNav.vue';
   import FormResume from './components/FormResume.vue';
+  import Customize from './components/Customize.vue';
 export default{
 components:{
 FirstHeader,
 TitleNav, 
 FormResume,
+Customize,
 }
 }
 </script>
