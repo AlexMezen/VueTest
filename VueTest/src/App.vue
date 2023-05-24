@@ -6,6 +6,7 @@
   <q-r-wallet></q-r-wallet>
   <save-trees></save-trees>
   <business-card></business-card>
+  <f-a-q></f-a-q>
 </template>
 <script >
   import FirstHeader from './components/FirstHeader.vue';
@@ -15,6 +16,7 @@
   import QRWallet from './components/QrWallet.vue';
   import SaveTrees from './components/SaveTrees.vue';
   import BusinessCard from './components/BusinessCard.vue';
+  import FAQ from './components/FAQ.vue';
 export default{
 components:{
 FirstHeader,
@@ -24,6 +26,7 @@ Customize,
 QRWallet,
 SaveTrees,
 BusinessCard,
+FAQ,
 }
 }
 </script>

@@ -66,17 +66,12 @@ export default{
 <style>
 .businessCard-compare
 {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 21px;
 line-height: 25px;
-/* identical to box height */
-
 text-decoration-line: underline;
-
-/* light grey */
-
 color: #DDDDDD;
 }
 .businessCard{
