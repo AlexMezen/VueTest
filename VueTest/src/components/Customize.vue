@@ -88,8 +88,5 @@ font-size: 20px;
 line-height: 20px;
 text-decoration-line: underline;
 color: #000000;
-
 }
-
-
 </style>
