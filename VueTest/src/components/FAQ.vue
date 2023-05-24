@@ -46,7 +46,7 @@ export default{
 
 <style>
 .faq{
-    height: 450px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;

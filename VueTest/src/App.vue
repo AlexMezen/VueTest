@@ -7,6 +7,7 @@
   <save-trees></save-trees>
   <business-card></business-card>
   <f-a-q></f-a-q>
+  <first-footer></first-footer>
 </template>
 <script >
   import FirstHeader from './components/FirstHeader.vue';
@@ -17,6 +18,7 @@
   import SaveTrees from './components/SaveTrees.vue';
   import BusinessCard from './components/BusinessCard.vue';
   import FAQ from './components/FAQ.vue';
+  import FirstFooter from './components/FirstFooter.vue';
 export default{
 components:{
 FirstHeader,
@@ -27,6 +29,7 @@ QRWallet,
 SaveTrees,
 BusinessCard,
 FAQ,
+FirstFooter,
 }
 }
 </script>
