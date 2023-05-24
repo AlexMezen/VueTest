@@ -34,7 +34,7 @@ export default{
 <style>
 footer{
     width: 100%;
-    height: 400px;
+    height: 250px;
     display: flex;
     justify-content: center;
     background: #01021B;
