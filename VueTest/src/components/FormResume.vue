@@ -35,22 +35,25 @@
                                 <div class="userdata-userinput">
                                     <form>
                                         <div class="twoblocks mb12">
-                                            <input class="inputstyle" type="text" placeholder="Name"><input class="inputstyle" type="text" placeholder="Surname">
+                                            <input :value="nameinp" @input="nameinp = $event.target.value" class="inputstyle" type="text" placeholder="Name">
+                                            <input :value="surname" @input="surname = $event.target.value" class="inputstyle" type="text" placeholder="Surname">
                                         </div>
-                                        <input type="text" class="oneblock mb12 inputstyle" placeholder="Number">
+                                        <input :value="number" @input="number = $event.target.value" type="text" class="oneblock mb12 inputstyle" placeholder="Number">
                                         <div class="twoblocks mb12">
-                                            <input class="inputstyle" type="text" placeholder="Phone"><input class="inputstyle" type="text" placeholder="Fax">
+                                            <input :value="phone" @input="phone = $event.target.value" class="inputstyle" type="text" placeholder="Phone">
+                                            <input :value="fax" @input="fax = $event.target.value" class="inputstyle" type="text" placeholder="Fax">
                                         </div>
-                                        <input type="text" class="oneblock mb12 inputstyle" placeholder="Number">
+                                        <input :value="email" @input="email = $event.target.value" type="text" class="oneblock mb12 inputstyle" placeholder="Email">
                                         <div class="twoblocks mb12">
-                                            <input class="inputstyle" type="text" placeholder="Occupation"><input class="inputstyle" type="text" placeholder="Company">
+                                            <input :value="occupation" @input="occupation = $event.target.value" class="inputstyle" type="text" placeholder="Occupation">
+                                            <input :value="company" @input="company = $event.target.value" class="inputstyle" type="text" placeholder="Company">
                                         </div>
-                                        <input type="text" class="oneblock mb12 inputstyle" placeholder="Adress">
+                                        <input :value="adress" @input="adress = $event.target.value" type="text" class="oneblock mb12 inputstyle" placeholder="Adress">
                                         <div class="userdata-linkwrapper">
                                             <a href="#">Enter adress</a>
                                         </div>
-                                        <input type="text" class="oneblock mb12 inputstyle" placeholder="Links">
-                                        <input type="text" class="oneblock mb12 inputstyle" placeholder="About">
+                                        <input :value="links" @input="links = $event.target.value" type="text" class="oneblock mb12 inputstyle" placeholder="Links">
+                                        <input :value="about" @input="about = $event.target.value" type="text" class="oneblock mb12 inputstyle" placeholder="About">
                                     </form>
                                 </div>
                                 
@@ -74,7 +77,22 @@
 
 <script>
 export default{
-    name: "FormResume"
+    
+    data() {
+        return{
+            nameinp: '',
+            surname: '',
+            number: '',
+            phone: '',
+            fax: '',
+            email: '',
+            occupation: '',
+            company: '',
+            adress: '',
+            links: '',
+            about: '',
+        }
+    }
 }
 
 
